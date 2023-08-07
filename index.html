@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+<title>JQuery Two Level Accordion Menu</title>
+<link href="mainStyle.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>Accordion Menu (2 levels) - SP 2017</h1>
+<p>This file features a common example of how to use JQuery to control the animation of a two-level CSS formatted menu</p>
+<p>The accordion menu uses the slideUp and slideDown JQuery methods</p>
+<div id="accordion">
+	<ul>
+		<li>
+      <h3><span class="fa fa-dashboard"></span>Dashboard</h3>
+			<ul>
+				<li><a href="#">Reports</a>
+				<li><a href="#">Search</a>
+				<li><a href="#">Graphs</a>
+				<li><a href="#">Settings</a>
+        <li><a href="#">Juan</a>
+			</ul>
+
+		<li>
+      <h3><span class="fa fa-tasks"></span>Tasks</h3>
+			<ul>
+				<li><a href="#">Today's tasks</a>
+				<li><a href="#">Urgent</a>
+				<li><a href="#">Overdues</a>
+				<li><a href="#">Recurring</a>
+				<li><a href="#">Settings</a>
+			</ul>	
+		<li>
+      <h3><span class="fa fa-calendar"></span>Calendar</h3>
+			<ul>
+				<li><a href="#">Current Month</a>
+				<li><a href="#">Current Week</a>
+				<li><a href="#">Previous Month</a>
+				<li><a href="#">Previous Week</a>
+				<li><a href="#">Next Month</a>
+				<li><a href="#">Next Week</a>
+				<li><a href="#">Team Calendar</a>
+				<li><a href="#">Private Calendar</a>
+				<li><a href="#">Settings</a>
+			</ul>
+	
+		<li>
+			<h3><span class="fa fa-heart"></span>Favorites</h3>
+			<ul>
+				<li><a href="#">Social Media</a>
+				<li><a href="#">Videos</a>
+				<li><a href="#">Blogs</a>
+			</ul>
+
+	</ul>
+</div>
+<div id="Dashboard" class="hMenu">This is The Dashboard hiden text</div>
+<div id="Tasks" class="hMenu">This is The Task hiden text</div>
+<div id="Calendar" class="hMenu">This is The Calendar hiden text</div>
+<div id="Favorites" class="hMenu">This is The Favorites hiden text</div>
+<footer><p>IMED-1316 | Brian Hebert</p></footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="myscript.js"></script>
+</body>
+</html>
